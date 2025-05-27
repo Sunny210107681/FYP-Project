@@ -1,0 +1,48 @@
+{
+  "name": "project-paulie",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint": "eslint --fix .",
+    "format": "prettier --write .",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "0.7.4",
+    "@nuxt/fonts": "0.11.2",
+    "@nuxt/icon": "1.12.0",
+    "@nuxt/image": "1.10.0",
+    "chalk": "^5.4.1",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-vue": "^8.6.0",
+    "eslint": "^8.57.0 || ^9.0.0",
+    "nuxt": "^3.15.0",
+    "openai": "^4.98.0",
+    "vue": "latest",
+    "vue-collapsed": "^1.3.4",
+    "vue-router": "latest",
+    "vue3-toastify": "^0.2.8"
+  },
+  "packageManager": "pnpm@9.4.0+sha1.9217c800d4ab947a7aee520242a7b70d64fc7638",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "postcss": "^8.5.3",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "3.4.17",
+    "typescript": "^5.7.2"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
+}

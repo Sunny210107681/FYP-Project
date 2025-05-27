@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--color-primary: 240, 100%, 50%;
+	--color-secondary: 300, 70%, 82%;
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.font-Tagesschrift {
+	font-family: 'Tagesschrift', 'system-ui' !important;
+}
