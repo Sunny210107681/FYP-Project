@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { toast } from 'vue3-toastify';
 
+useHead({
+	link: [{ rel: 'icon', href: '/favicon.jpeg' }]
+});
+
 const route = useRoute();
 const chatbotRef = ref<HTMLElement>();
 const footerRef = ref<HTMLElement>();
@@ -136,22 +140,13 @@ const sendMessage = async () => {
 			<div class="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
 				<div class="space-y-1">
 					<h1 class="text-2xl font-semibold">Heading</h1>
-					<p class="font-medium">Link</p>
-					<p class="font-medium">Link</p>
-					<p class="font-medium">Link</p>
-					<p class="font-medium">Link</p>
-				</div>
-				<div class="space-y-1">
-					<h1 class="text-2xl font-semibold">Heading</h1>
-					<p class="font-medium">Link</p>
-					<p class="font-medium">Link</p>
-					<p class="font-medium">Link</p>
-					<p class="font-medium">Link</p>
+					<p class="font-medium"><NuxtLink to="/contact">Contact</NuxtLink></p>
+					<p class="font-medium"><NuxtLink to="/faq">FAQ</NuxtLink></p>
+					<p class="font-medium"><NuxtLink to="/blogs">Blogs</NuxtLink></p>
 				</div>
 			</div>
 			<p class="mt-10 text-center text-white">
-				© 2025 Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-				temporibus voluptatem minima labore architecto? Mollitia.
+				© 2025 AI Heath. All rights reserved. This platform is not a substitute for professional medical advice.
 			</p>
 		</div>
 	</footer>

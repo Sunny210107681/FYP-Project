@@ -3,14 +3,13 @@ useHead({ title: 'AI Health' });
 </script>
 
 <template>
-	<div class="bg-[url('/images/health-banner.jpg')]">
+	<div class="bg-[url('/images/health-banner1.jpg')]">
 		<div class="container min-h-[400px]">
 			<div
 				class="mx-5 ml-5 min-h-[400px] max-w-[400px] bg-white/80 p-5 sm:ml-[10%]"
 			>
 				<h1 class="font-Tagesschrift text-4xl font-semibold leading-relaxed">
-					This is the future to Mental Health Aid as its got a chatbot available
-					24/7 for anyone
+					Welcome to the future of mental health support — an AI-powered chatbot, available 24/7 for everyone, anytime, anywhere.
 				</h1>
 			</div>
 		</div>
@@ -22,13 +21,14 @@ useHead({ title: 'AI Health' });
 				<div
 					class="inline-block rounded-full bg-secondary p-3 px-5 pr-10 text-primary"
 				>
-					This is some dummy text
+					Show resources for stress and concentration.
 				</div>
 			</div>
 			<div class="self-end">
 				<div class="arrow-left ml-[80%]" />
 				<div class="inline-block rounded-full bg-white p-3 px-5 pr-10">
-					This is some dummy text
+					Got it! Here are some helpful tools on managing stress and staying focused. 
+					Let me know if you'd like quick tips or a deeper dive into any topic.
 				</div>
 			</div>
 		</div>
@@ -38,8 +38,10 @@ useHead({ title: 'AI Health' });
 			class="mx-auto flex w-full max-w-[850px] flex-col items-center gap-10 px-5 py-10 sm:flex-row sm:gap-5"
 		>
 			<h1 class="grow-3 text-3xl font-medium text-primary">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam cum
-				suscipit consectetur, beatae saepe iste doloribus impedit
+				Need someone to talk to? Our intelligent chatbot is here 24/7 to listen, support,
+				and guide you through whatever you're going through. 
+				Whether you're managing stress, feeling low, or just need a check-in, 
+				it's always ready — no appointments, no pressure.
 			</h1>
 			<NuxtImg
 				src="/images/smiling-person.jpg"
@@ -53,21 +55,20 @@ useHead({ title: 'AI Health' });
 	<div class="container max-w-6xl">
 		<div class="grid place-items-center gap-5 py-5 sm:grid-cols-[1fr_2fr]">
 			<img
-				src="https://picsum.photos/300/300"
+				src="/images/health-banner1.jpg"
 				alt=""
 			/>
 			<div class="space-y-3 py-5">
-				<h1 class="text-3xl font-semibold">Information And Support</h1>
+				<h1 class="text-3xl font-semibold">We're Here to Help</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, magni
-					error in veniam aperiam esse, repudiandae odit inventore aut
-					accusantium nemo nam commodi id aspernatur mollitia sed! Quod, dolore
-					voluptate.
+					Have questions, need support, or just want to talk? Our team is here for you. 
+					Whether you're experiencing challenges or simply want to learn more about our services, 
+					feel free to reach out. We're ready to listen — no concern is too small.
 				</p>
 				<button
 					class="block rounded border-2 border-primary bg-primary px-5 py-3 font-medium text-white transition duration-500 hover:bg-white hover:text-primary max-sm:mx-auto"
 				>
-					Find Information and Support
+					<NuxtLink to="/contact">Contact</NuxtLink>
 				</button>
 			</div>
 		</div>
@@ -77,17 +78,16 @@ useHead({ title: 'AI Health' });
 				alt=""
 			/>
 			<div class="space-y-3 py-5">
-				<h1 class="text-3xl font-semibold">Information And Support</h1>
+				<h1 class="text-3xl font-semibold">Quick Answers to Common Questions</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, magni
-					error in veniam aperiam esse, repudiandae odit inventore aut
-					accusantium nemo nam commodi id aspernatur mollitia sed! Quod, dolore
-					voluptate.
+					Curious about how our AI chatbot works? Not sure what kind of support we offer? 
+					Visit our FAQ page to find answers to common questions about mental health, 
+					how to use our platform, and more — all in one convenient place.
 				</p>
 				<button
 					class="block rounded border-2 border-primary bg-primary px-5 py-3 font-medium text-white transition duration-500 hover:bg-white hover:text-primary max-sm:mx-auto"
 				>
-					Find Information and Support
+					<NuxtLink to="/faq">FAQ</NuxtLink>
 				</button>
 			</div>
 		</div>

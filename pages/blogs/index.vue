@@ -22,23 +22,19 @@ const scrollPrev = () => emblaApi.value?.scrollPrev();
 		>
 			<div class="flex">
 				<Slide image="https://picsum.photos/600/300">
-					<template #heading>Heading</template>
-					<template #label> Lorem ipsum dolor sit amet. </template>
+					<template #heading>How AI Is Changing Mental Health Support</template>
+					<template #label>Explore the future of digital wellbeing.</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-						dolor cupiditate quisquam nisi debitis ab, quaerat necessitatibus id
-						aperiam optio aspernatur dignissimos modi ad quis aliquam eaque
-						perferendis ipsa. Repellat!
+						From instant check-ins to guided advice, AI-powered tools are 
+						transforming how we access emotional support and mental health care.
 					</template>
 				</Slide>
 				<Slide image="https://picsum.photos/600/300">
-					<template #heading>Heading 2</template>
-					<template #label> Lorem ipsum dolor sit amet. </template>
+					<template #heading>What Can a Mental Health Chatbot Do?</template>
+					<template #label>More than just automated replies.</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-						dolor cupiditate quisquam nisi debitis ab, quaerat necessitatibus id
-						aperiam optio aspernatur dignissimos modi ad quis aliquam eaque
-						perferendis ipsa. Repellat!
+						Learn how AI chatbots offer instant support, share helpful resources,
+						and guide users through common mental health topics.
 					</template>
 				</Slide>
 			</div>
@@ -68,125 +64,71 @@ const scrollPrev = () => emblaApi.value?.scrollPrev();
 	</section>
 	<section class="container py-10">
 		<h1 class="text-center text-4xl font-light">
-			<span class="italic text-primary">Thousands</span>
-			Of Stories
+			<span class="italic text-primary">Shared</span>
+			Journeys. Smart Tools.
 		</h1>
-		<p class="my-5 text-center">Real people owning their growth</p>
+		<p class="my-5 text-center">Knowledge and reflections from everyday users.</p>
 		<div
 			class="grid items-start gap-5 py-10 max-lg:px-5 sm:grid-cols-2 lg:grid-cols-3"
 		>
 			<div class="space-y-5">
 				<BlogCard label-color="green">
-					<template #label>Label</template>
-					<template #heading>Heading</template>
+					<template #label>Jack</template>
+					<template #heading>Continuous Availability of Automated Mental Health Resources</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Architecto eos nemo aperiam odio quisquam velit,
-						harum nam dignissimos maiores culpa.
+						The integration of AI ensures i got round-the-clock access to structured,
+						 non-personal mental health support. With standardized resource guides 
+						 and self-help techniques available at any hour, i could engage with reliable, 
+						 research-informed practices regardless of time constraints.
 					</template>
 				</BlogCard>
 				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
+					<template #label>Lauren</template>
+					<template #heading>My First Experience Using an AI for Mental Health</template>
 					<template #paragraph>
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-					</template>
-				</BlogCard>
-				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
-					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						adipisicing elit. Architecto eos nemo aperiam odio quisquam velit,
-						harum nam dignissimos maiores culpa.
+						I wasn't sure what to expect, but chatting with the AI was
+						surprisingly helpful. It offered structured guidance, useful tips, and it
+						was available when I needed support the most.
 					</template>
 				</BlogCard>
 			</div>
 			<div class="space-y-5">
-				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
+				<BlogCard label-color="purple">
+					<template #label>Sophie</template>
+					<template #heading>Why 24/7 Support Made a Difference for Me</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam harum nam
-						dignissimos maiores culpa.
+						There were moments I needed to talk but didn’t want to reach out to someone directly. 
+						Having access to an AI chatbot at any hour gave me a safe space to express myself.
 					</template>
 				</BlogCard>
-				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
+				<BlogCard label-color="orange">
+					<template #label>James</template>
+					<template #heading> Using the Chatbot to Stay on Track</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-					</template>
-				</BlogCard>
-				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
-					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Architecto eos nemo aperiam odio quisquam velit,
-						harum nam dignissimos maiores culpa.
+						Setting daily mental check-ins with the chatbot helped me
+						stay focused. It reminded me to pause, reflect, and apply small 
+						tools consistently — something I hadn’t done before.
 					</template>
 				</BlogCard>
 			</div>
 			<div class="space-y-5">
 				<BlogCard label-color="red">
-					<template #label>Label</template>
-					<template #heading>Heading</template>
+					<template #label>Sarah</template>
+					<template #heading>Why Digital Mental Health Support Works for Me</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
+						I liked that I could use the AI chatbot at any time, without pressure or 
+						needing an appointment. It made support feel 
+						more accessible and flexible for my routine.
 					</template>
 				</BlogCard>
-				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
+				<BlogCard label-color="black">
+					<template #label>Anaya</template>
+					<template #heading>What It's Like Getting Step-by-Step Support from AI</template>
 					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Architecto eos nemo aperiam odio quisquam velit, harum nam
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit.
-					</template>
-				</BlogCard>
-				<BlogCard>
-					<template #label>Label</template>
-					<template #heading>Heading</template>
-					<template #paragraph>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-						eos nemo aperiam odio quisquam velit, harum nam dignissimos maiores
-						dignissimos maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing maiores culpa. Lorem ipsum dolor sit amet consectetur
-						adipisicing elit. Architecto eos nemo aperiam odio quisquam velit,
-						harum nam dignissimos maiores culpa.
+					The chatbot didn’t just respond — it guided me. 
+					Step-by-step prompts helped me reflect, 
+					stay grounded, and apply techniques without 
+					needing to figure it all out on my own.
 					</template>
 				</BlogCard>
 			</div>
