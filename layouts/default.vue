@@ -19,7 +19,7 @@ const messages = ref<{ by: string; message: string }[]>([
 	{
 		by: 'bot',
 		message:
-			'Please remember that I am just an AI Assistant and you should take my advice with a grain of salt!'
+			'Please remember that I am an AI assistant and my responses should not be considered a substitute for professional advice. Always verify critical decisions with a qualified expert.'
 	}
 ]);
 
